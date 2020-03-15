@@ -1,0 +1,230 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/resources",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "scope",
+                  "isOptional": true
+                },
+                {
+                  "name": "kind",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllResourcesPinnedPart"
+            }
+          },
+          "1": {
+            "position": {
+              "x": 6,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [],
+                      "title": "Metrics chart",
+                      "titleKind": 1,
+                      "visualization": {
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "2": {
+            "position": {
+              "x": 12,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "timezoneId": "Pacific Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "3": {
+            "position": {
+              "x": 14,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "timezoneId": "Eastern Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "4": {
+            "position": {
+              "x": 0,
+              "y": 4,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/subscriptions/resourcegroups",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "scope",
+                  "isOptional": true
+                },
+                {
+                  "name": "kind",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseResourceGroupPinnedPart"
+            }
+          },
+          "5": {
+            "position": {
+              "x": 12,
+              "y": 4,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/ActiveDirectoryQuickTasksPart"
+            }
+          },
+          "6": {
+            "position": {
+              "x": 12,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "selectedMenuItemId",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/GalleryTile"
+            }
+          },
+          "7": {
+            "position": {
+              "x": 14,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/HelpAndSupportPart"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "UTC Time",
+                "value": "Past 24 hours"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-0d7635da-bf0f-43e3-b450-9f75abc86333"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Customer dashboard",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Customer dashboard"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
