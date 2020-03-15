@@ -1,0 +1,1 @@
+az vm create -g ContainerCompute --name quickvm --image Debian --admin-username student --admin-password StudentPa55w.rd
