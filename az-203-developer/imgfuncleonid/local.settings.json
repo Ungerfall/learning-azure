@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "REMOTEDEBUGGINGVERSION": "16.0.28729.10",
+    "FUNCTIONS_RUNTIME_SCALE_MONITORING_ENABLED": "0",
+    "WEBSITE_AUTH_AUTO_AAD": "False",
+    "DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "imgfuncleonid",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=imgstorleonid;AccountKey=U+LL2YR8roqps+/i+RvGQ66TmxCZmZRI3qxB4S78zIDhFPR+v22D12jxbnW3GcurWIi+ujxbTVKgDbfvypRgWw==;EndpointSuffix=core.windows.net"
+  }
+}
