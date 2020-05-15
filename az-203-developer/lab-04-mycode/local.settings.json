@@ -1,0 +1,22 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "REMOTEDEBUGGINGVERSION": "16.0.28729.10",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=securestorleonid;AccountKey=R20uxXyLbfCib9JELoqUKNDWTZ37tR4nO1dtq+3LPloEj6H026z9829X6CGxrUHxE7mVTnPAW1/XkmIzdL0hJA==;EndpointSuffix=core.windows.net",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=b721120b-ab17-4a26-8445-08cf6d426fcc",
+    "FUNCTIONS_RUNTIME_SCALE_MONITORING_ENABLED": "0",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "b721120b-ab17-4a26-8445-08cf6d426fcc",
+    "WEBSITE_NODE_DEFAULT_VERSION": "10.19.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=securestorleonid;AccountKey=R20uxXyLbfCib9JELoqUKNDWTZ37tR4nO1dtq+3LPloEj6H026z9829X6CGxrUHxE7mVTnPAW1/XkmIzdL0hJA==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "securefuncleonida6b0",
+    "WEBSITE_AUTH_AUTO_AAD": "False",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=securestorleonid;AccountKey=R20uxXyLbfCib9JELoqUKNDWTZ37tR4nO1dtq+3LPloEj6H026z9829X6CGxrUHxE7mVTnPAW1/XkmIzdL0hJA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "securefuncleonid",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout"
+  }
+}
